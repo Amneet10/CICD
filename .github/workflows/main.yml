@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python test.py
+        python test_app.py
