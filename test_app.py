@@ -14,7 +14,7 @@ class TestApp(unittest.TestCase):
         """Test the hello_world route."""
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data.decode(), 'Hello, World!')
+        self.assertEqual(response.data.decode(), 'Hello, Pop!')
 
 if __name__ == '__main__':
     unittest.main()
